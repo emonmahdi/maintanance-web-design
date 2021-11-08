@@ -3,8 +3,22 @@ body{
 	font-family: 'Poppins', sans-serif;
 
 }
+/* ========my butto======= */
+.my-btn{
+    background-color: #33ADF8;
+    color:#fff;
+    font-weight: 500;
+    border-radius: 10px!important;
+    padding:7px 35px!important;
+}
+.my-btn:hover{
+    background-color: #33ADF8!important;
+}
+.management .my-btn{
+    box-shadow: 0 2px 5px #33ADF8;
+}
 
-
+/* ======================= */
 .baner-section{
 	
 background: #F8FAFB; 
@@ -227,7 +241,7 @@ ul {
 
 .c{
 	margin-top:30px;
-	padding-left: 80px;
+	/* padding-left: 80px; */
 }
 
 .g i{ padding: 8px;
@@ -306,7 +320,7 @@ ul {
 
 .Starter .c{
 	margin-top:30px;
-	padding-left: 80px;
+	/* padding-left: 80px; */
 }
 
 .Starter .g i{ padding: 8px;
