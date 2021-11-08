@@ -1,0 +1,470 @@
+body{
+
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+.baner-section{
+	
+background: #F8FAFB; 
+padding-top: 60px; 
+padding-bottom: 60px;
+}
+
+.baner-section h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #042878;
+}
+
+.baner-section p {
+    color: #042878;
+}
+
+
+.baner{
+
+
+}
+
+.baner-row{
+
+	align-items: center;
+}
+
+.btn{}
+
+img{
+	    width: 100%;
+        height: auto;
+}
+
+
+
+
+
+
+/* ================================================== */
+.Security{
+	    padding-top: 60px;
+	    padding-bottom: 60px;
+	    background: #F1F5FE;
+	    }
+.Security h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #042878;
+    text-align: center;
+}
+
+.Security p {
+    color: #042878;
+    text-align: center;
+}
+
+.baner-row{
+
+	align-items: center;
+}
+
+.Security .row{
+
+	align-items: center;
+}
+
+
+ /*.accordion-button:not(.collapsed) {
+    /* color: #0c63e4; */
+    /* background-color: #fffffffc; */
+    /* box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%); 
+}*/
+.accordion-button:not(.collapsed){
+    box-shadow: none!important;
+    outline: none!important;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem; 
+    height: 1.25rem;
+    margin-left: 0!important;
+    content: ""; 
+    background-repeat: no-repeat;
+    background-size: 1.25rem; 
+    transition: transform .2s ease-in-out;
+}
+.accordion{
+    border: none!important;
+}
+.accor-header-one .accordion-button::after{
+    margin-left: -180px!important; 
+}
+.accor-header-two .accordion-button::after{
+    margin-left: -157px!important;
+}
+.accor-header-three .accordion-button::after{
+    margin-left: -198px!important;
+}
+.accordion-item{
+    padding:5px 19px;
+    background-color: transparent!important;
+    border:none!important;
+    outline: none !important;
+    /* border-bottom: 2px solid #000!important;  */
+}
+.borderItem{
+    border-bottom: 1px solid #002576!important; 
+    margin:0 18px;
+}
+.accordion-button{
+    background-color: transparent!important;
+    outline: none!important;
+} 
+.accordion-item:first-of-type .accordion-button { 
+    box-shadow: none!important;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color:none!important;
+    outline: 0;
+    box-shadow:none!important;
+}
+.accordion-header button{
+    font-size: 25px;
+    font-weight: bold;
+    color:#002576;
+}
+/* ================================================================ */
+
+.management{
+	background: #F8F9FB;
+	padding: 60px 0px;
+}
+.management h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #042878;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.management h2{
+	font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.management p{
+	font-size: 14px;
+    text-align: center;
+    font-weight: 300; 
+}
+
+.Standard{
+	padding: 60px 9px;
+	background: white;
+	margin: 10px 25px;
+	border-radius: 10px;
+	border-bottom: 10px solid #0d6efd;
+}
+.Starter{
+	padding: 60px 9px;
+	background: #212529;
+	margin: 10px 25px;
+	border-radius: 10px;
+	border-bottom: 10px solid #09ba68;
+}
+.Business{padding: 60px 9px;background: white;margin: 10px 25px;border-radius: 10px;border-bottom: 10px solid #0d6efd;}
+
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 12px 55px;
+}
+
+.management .doller h6{
+	text-decoration: line-through;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+.dobble{
+    overflow: hidden;
+}
+.doller{
+    float: left;
+    width: 50%;
+}
+.save{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+.management h3{
+	font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+
+.management .save-btn {
+    background: blue;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+
+.management .align-center{
+	    text-align: center;
+}
+ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.c{
+	margin-top:30px;
+	padding-left: 80px;
+}
+
+.g i{ padding: 8px;
+    color: #54da54; }
+.y i{
+	color: orange;
+	padding: 8px;
+}
+.r i{
+	 padding: 8px;
+	 color: darkred;
+}
+
+
+.see{}
+.see p{}
+.see p a{}
+
+
+
+
+
+
+
+.Starter hr.solid {
+    border-top: 3px solid #bbb;
+    margin: 12px 55px;
+}
+
+.Starter .doller h6{
+	text-decoration: line-through;
+	text-align: right;
+	margin-right: 10px;
+	margin-top: 5px;
+	color: white;
+}
+.Starter .dobble{
+    overflow: hidden;
+}
+.Starter .doller{
+    float: left;
+    width: 50%;
+}
+.Starter .save{
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+.Starter  h3{
+	font-size: 22px;
+	text-align: center;
+	font-weight: 600;
+	margin-top: 15px;
+	color: white;
+}
+
+
+
+.Starter  .save-btn {
+    background: blue;
+    border-radius: 20px;
+    border: 0px;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+
+
+.Starter  .align-center{
+	    text-align: center;
+}
+.Starter ul {
+    margin-top: 0px;
+    margin-bottom: 1rem;
+    list-style: none;
+}
+
+.Starter .c{
+	margin-top:30px;
+	padding-left: 80px;
+}
+
+.Starter .g i{ padding: 8px;
+    color: #54da54; }
+.Starter .y i{
+	color: orange;
+	padding: 8px;
+}
+.Starter .r i{
+	 padding: 8px;
+	 color: darkred;
+}
+
+
+.Starter .r{ color: white; }
+.Starter .y{ color: white; }
+.Starter .g{color: white;}
+
+
+.management .Starter h2{
+	font-size: 22px;
+	text-align: center;
+	font-weight: 600;
+	color: white;
+}
+.management .Starter p{
+	font-size: 14px;
+	text-align: center;
+	font-weight: 300;
+	color: white;
+}
+
+
+
+.pack_header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #042878;
+    font-size: 45px;
+    font-weight: 600;
+}
+.pack {
+    background: #F1F5FE;
+    padding: 61px 0px;
+}
+
+.item{}
+    .card{ 
+        box-shadow: 0 3px 14px #ddd;
+        margin: 10px!important;
+    }
+    .card-body{
+    	    flex: 1 1 auto;
+    padding: 0rem 0rem !important; }
+    .card-title{
+    /* text-align: center; */
+    margin-top: 15px;
+    color: #042878;
+    font-weight: 600;
+    padding:0 24px;
+    /* padding-top: 21px; */
+}
+    .card-text{
+    color: #042878;
+    font-weight: 400;
+    /* padding-left: 29px; */
+    padding:0px 24px;
+} 
+    .card-list{
+        padding-left: 15px
+ 
+    }
+    .item.l{}
+    .price{
+    background: #F1F5FE;
+    /* padding-left: 28px;
+    padding-bottom: 10px; */
+    padding: 20px;
+    font-weight: bold;
+    margin: 0;
+    color:#000480;
+}
+    .price p{
+        margin-bottom: 0;
+        text-transform: lowercase;
+        font-weight: 500;
+    }
+    .price h4{ 
+           margin: 0;
+           font-weight: 600;
+     }
+
+
+   .l i { padding: 8px;
+    color: #54da54; }
+/* ============================================= */
+/* owl carousel */
+.owl-nav .owl-prev, .owl-nav .owl-next{
+    font-size: 50px!important;
+}
+
+
+.owl-nav button.owl-next span{
+    position: absolute!important;
+    top: 40%;
+    right: -10px;  
+    color: #2680EB!important; 
+    line-height: 2rem;
+    border-radius: 50%;
+    text-align: center;  
+    transition:.3s;
+} 
+.owl-nav button.owl-prev span{
+    position: absolute!important;
+    top: 40%;
+    left: -40px; 
+    color: #2680EB!important; 
+    line-height: 2rem;
+    border-radius: 50%;
+    text-align: center;  
+    transition:.3s;
+} 
+.owl-nav button.owl-prev span:hover, .owl-nav button.owl-next span:hover {
+    color: #000480!important;
+}
+.owl-dots{
+    display: none!important;
+}
+
+
+/* ================================================= */
+
+.Guarantee{
+    padding: 90px 0px;
+    text-align: center;
+    background: #F8FAFB;
+}
+.icon{
+    text-align: center;
+    font-size: 40px;
+    color: #2f8e48;
+}
+.icon i{}
+.Guarantee h1{
+    color: #000480;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 20px;
+}
+.Guarantee p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box{
+    background: #F1F5FE;
+    padding: 45px;
+    box-shadow: 5px 3px 9px #ddd;
+    border-radius: 10px;
+}
