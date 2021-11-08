@@ -221,14 +221,17 @@ hr.solid {
 
 
 
-.management .save-btn {
-    background: blue;
+.management .save-btn, .bg-save {
+    background: #33ADF8;
     border-radius: 20px;
     border: 0px;
     font-size: 12px;
     padding: 4px 10px;
+    box-shadow: 0 2px 5px #33ADF8;
 }
-
+.bg-save{
+    background:  #33ADF8!important;
+}
 
 .management .align-center{
 	    text-align: center;
