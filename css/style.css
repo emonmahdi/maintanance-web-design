@@ -227,7 +227,7 @@ hr.solid {
     border: 0px;
     font-size: 12px;
     padding: 4px 10px;
-    box-shadow: 0 2px 5px #33ADF8;
+    box-shadow: 0 2px 5px #33ADF8; 
 }
 .bg-save{
     background:  #33ADF8!important;
@@ -236,6 +236,9 @@ hr.solid {
 .management .align-center{
 	    text-align: center;
 }
+.management .align-center .my-btn{
+    text-transform: uppercase;
+}   
 ul {
     margin-top: 0px;
     margin-bottom: 1rem;
@@ -258,7 +261,9 @@ ul {
 	 color: darkred;
 }
 
-
+.price-text{
+    font-size: 40px!important;
+}
 .see{}
 .see p{}
 .see p a{}
@@ -484,4 +489,7 @@ ul {
     padding: 45px;
     box-shadow: 5px 3px 9px #ddd;
     border-radius: 10px;
+}
+.box .my-btn{
+    text-transform: capitalize;
 }
